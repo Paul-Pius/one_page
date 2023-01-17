@@ -3,14 +3,8 @@ import './App.css';
 import React from "react";
 import designlogo from "./img/designlogo.jpeg";
 import woman from "./img/woman.png";
-import shape from "./img/shape.png";
-import redcircle from "./img/redcircle.png";
-import greenrec from "./img/greenrec.png";
-import line from "./img/line.png";
-import square1 from "./img/square1.png";
-import square2 from "./img/square2.png";
 import loc from "./img/loc.png";
-import cyl from "./img/cyl.png";
+import human2 from "./img/human2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRoad } from '@fortawesome/free-solid-svg-icons';
 import { faWater } from '@fortawesome/free-solid-svg-icons';
@@ -26,19 +20,21 @@ const Design = () => {
                 </div>
 
                 <div className="redcirclediv">
-                        <h1 className="sixx">6</h1>
                     <div className="six">
-                        <p>Buy</p>
-                        <p style={{fontWeight: "bold"}}>Plots</p>
-                        <p style={{fontWeight: "bold"}}>& Get</p>
-                        <p style={{fontWeight: "bold"}}>1 Free</p>
                     </div>
-                    <img className="redcircleimg" src={redcircle} alt="redcircle"></img>
                 </div>
+                    <div className='redcirc'>
+                        <h1 className="sixx">6</h1>
+                        <p className='buy'>Buy</p>
+                        <p className='buy' style={{fontWeight: "bold"}}>Plots</p>
+                        <p className='buy' style={{fontWeight: "bold"}}>& Get</p>
+                        <p className='buy' style={{fontWeight: "bold"}}>1 Free</p>
+                    </div>
 
                 <div className="cyldiv">
-                    <img className="cylimg" src={cyl} alt="cyl"></img>
+                    
                 </div>
+
                 <div className="greenrecdiv">
                     <div className="initial">
                         <span className="init">Initial Deposit</span>
@@ -86,7 +82,6 @@ const Design = () => {
                             marginLeft: "6.7rem", 
                             fontWeight: "bold"}}>sqm</p>
                     </div>
-                    <img className="greenrecimg" src={greenrec} alt="greenrec"></img>
                 </div>
 
                 <div className="womandiv">
@@ -103,23 +98,26 @@ const Design = () => {
                     </div>
 
                     <div className="list">
-                    <FontAwesomeIcon icon={faLightbulb} />
-                        <span>Electricity</span> <br />
-                        <span>Recreation</span> <br />
-                    <FontAwesomeIcon icon={faRoad} />
-                        <span>Good Road</span> <br />
-                        <span>Drainage</span> <br />
-                    <FontAwesomeIcon icon={faLock} />
-                        <span>Security</span> <br />
-                    <FontAwesomeIcon icon={faWater} />
-                        <span>Portable Water</span> <br />
-                        <span>Landscaping</span> <br />
-                        <span>Perimeter Fencing</span> <br />
-                    <FontAwesomeIcon icon={faLightbulb} />
-                        <span>Street Light</span>
+                        <FontAwesomeIcon icon={faLightbulb} />
+                            <span>Electricity</span> <br />
+                            <span>Recreation</span> <br />
+                        <FontAwesomeIcon icon={faRoad} />
+                            <span>Good Road</span> <br />
+                            <span>Drainage</span> <br />
+                        <FontAwesomeIcon icon={faLock} />
+                            <span>Security</span> <br />
+                        <FontAwesomeIcon icon={faWater} />
+                            <span>Portable Water</span> <br />
+                            <span>Landscaping</span> <br />
+                            <span>Perimeter Fencing</span> <br />
+                        <FontAwesomeIcon icon={faLightbulb} />
+                            <span>Street Light</span>
+                        </div>
+                        <div className='darkblue'></div>
+                        <div className='hillshape2'></div>
+                        <div className='hillshape'></div>
+                        <div className='hillshape3'></div>
                     </div>
-                    <img className="shape1img" src={shape} alt="shape"></img>
-                </div>
 
                 <div className="logodiv">
                     <div className="vienna">
@@ -149,30 +147,38 @@ const Design = () => {
 
                 <footer>
                     <div className="linediv">
-                        <img className="lineimg" src={line} alt="line"></img>
                     </div>
                         <p style={{color: "#fff", marginLeft: "46rem", position: "absolute", marginTop: "83.2rem"}}>6 Months Plan Available</p>
-                        <p style={{color: "#fff", marginLeft: "54.5rem", position: "absolute", marginTop: "86rem", fontSize: "35px"}}>L A N D M A R K</p>
+                        <p style={{color: "#fff", marginLeft: "54.4rem", position: "absolute", marginTop: "86.5rem", fontSize: "35px"}}>L A N D M A R K</p>
                         <p style={{color: "#fff", marginLeft: "2rem", position: "absolute", marginTop: "86rem", fontSize: "35px"}}>SITE INSPECTION TAKE PLACE ON</p>
                         <p style={{color: "#fff", marginLeft: "2rem", position: "absolute", marginTop: "88.5rem", fontSize: "35px", fontWeight: "bold"}}>WEDNESDAY & SATURDAY</p>
                         <p style={{color: "#fff", marginLeft: "6rem", position: "absolute", marginTop: "100rem", fontSize: "35px"}}>315 HERBERT MACAULEY WAY SABO</p>
                         <p style={{color: "#fff", marginLeft: "6rem", position: "absolute", marginTop: "102.2rem", fontSize: "35px"}}>YABA LAGOS</p>
                         <p style={{color: "#FCAF30", marginLeft: "58rem", position: "absolute", marginTop: "90rem", fontSize: "25px"}}>YABATECH</p> <br />
                         <p style={{color: "#FCAF30", marginLeft: "53rem", position: "absolute", marginTop: "90.5rem", fontSize: "25px"}}>AUGUSTINE UNIVERSITY</p>
-                        <p style={{color: "#fff", marginLeft: "56rem", position: "absolute", marginTop: "95.5rem", fontSize: "20px"}}>ACCOUNT DETAILS</p>
+                        <p style={{color: "#fff", marginLeft: "56.3rem", position: "absolute", marginTop: "95.5rem", fontSize: "20px"}}>ACCOUNT DETAILS</p>
                         <p style={{color: "#FCAF30", marginLeft: "58rem", position: "absolute", marginTop: "98rem", fontSize: "20px"}}>0465073660</p>
                         <p style={{color: "#FCAF30", marginLeft: "55rem", position: "absolute", marginTop: "100.5rem", fontSize: "20px"}}>Propadi Limited | GTBank</p>
 
                     <div className="square2div">
-                        <img className="square2img" src={square2} alt="square2"></img>
+                        <img className="human2" src={human2} alt="human2"></img>
                     </div>
+
+                    <div className="square2div2"></div>
+                    <div className="square2div3"></div>
+                    <div className="square2div4"></div>
 
                     <div className="square1div">
                         <div className="locdiv">
                             <img className="locimg" src={loc} alt="loc"></img>
                         </div>
-                        <img className="square1img" src={square1} alt="square1"></img>
                     </div>
+                    <div className="square1div2"></div>
+                    <div className="square1div3"></div>
+                    <div className="square1div4"></div>
+                    <div className="square1div5"></div>
+                    <div className="square1div6"></div>
+                    <div className="square1div7"></div>
 
                 </footer>
         </div>
