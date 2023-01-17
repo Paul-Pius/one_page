@@ -90,11 +90,16 @@ const Design = () => {
 
                 <div className="shape1div">
                     <div className="tf">
-                        <p className="title">TITLE:</p>
-                        <h2 className="free">FREE HOLD</h2>
+                        {/* <p className="title">TITLE:</p>
+                        <h2 className="free">FREE HOLD</h2> */}
                         <div className="feature">
                             <span>FEATURES</span>
                         </div>
+                    </div>
+
+                    <div className='freee'>
+                        <p className="ttt">TITLE:</p>
+                        <h2 className="fff">FREE HOLD</h2>
                     </div>
 
                     <div className="list">
@@ -117,6 +122,8 @@ const Design = () => {
                         <div className='hillshape2'></div>
                         <div className='hillshape'></div>
                         <div className='hillshape3'></div>
+                        <div className='hillshape4'></div>
+                        <div className='hillshape5'></div>
                     </div>
 
                 <div className="logodiv">
