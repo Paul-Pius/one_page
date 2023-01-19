@@ -155,17 +155,17 @@ const Design = () => {
                 <footer>
                     <div className="linediv">
                     </div>
-                        <p style={{color: "#fff", marginLeft: "46rem", position: "absolute", marginTop: "83.2rem"}}>6 Months Plan Available</p>
-                        <p style={{color: "#fff", marginLeft: "54.4rem", position: "absolute", marginTop: "86.5rem", fontSize: "35px"}}>L A N D M A R K</p>
+                        <p style={{color: "#fff", marginLeft: "46rem", position: "absolute", marginTop: "84.2rem"}}>6 Months Plan Available</p>
+                        <p style={{color: "#fff", marginLeft: "55.8rem", position: "absolute", marginTop: "86.5rem", fontSize: "35px"}}>L A N D M A R K</p>
                         <p style={{color: "#fff", marginLeft: "2rem", position: "absolute", marginTop: "86rem", fontSize: "35px"}}>SITE INSPECTION TAKE PLACE ON</p>
                         <p style={{color: "#fff", marginLeft: "2rem", position: "absolute", marginTop: "88.5rem", fontSize: "35px", fontWeight: "bold"}}>WEDNESDAY & SATURDAY</p>
                         <p style={{color: "#fff", marginLeft: "6rem", position: "absolute", marginTop: "100rem", fontSize: "35px"}}>315 HERBERT MACAULEY WAY SABO</p>
                         <p style={{color: "#fff", marginLeft: "6rem", position: "absolute", marginTop: "102.2rem", fontSize: "35px"}}>YABA LAGOS</p>
-                        <p style={{color: "#FCAF30", marginLeft: "58rem", position: "absolute", marginTop: "90rem", fontSize: "25px"}}>YABATECH</p> <br />
-                        <p style={{color: "#FCAF30", marginLeft: "53rem", position: "absolute", marginTop: "90.5rem", fontSize: "25px"}}>AUGUSTINE UNIVERSITY</p>
-                        <p style={{color: "#fff", marginLeft: "56.3rem", position: "absolute", marginTop: "95.5rem", fontSize: "20px"}}>ACCOUNT DETAILS</p>
-                        <p style={{color: "#FCAF30", marginLeft: "58rem", position: "absolute", marginTop: "98rem", fontSize: "20px"}}>0465073660</p>
-                        <p style={{color: "#FCAF30", marginLeft: "55rem", position: "absolute", marginTop: "100.5rem", fontSize: "20px"}}>Propadi Limited | GTBank</p>
+                        <p style={{color: "#FCAF30", marginLeft: "59rem", position: "absolute", marginTop: "90rem", fontSize: "25px"}}>YABATECH</p> <br />
+                        <p style={{color: "#FCAF30", marginLeft: "54rem", position: "absolute", marginTop: "90.5rem", fontSize: "25px"}}>AUGUSTINE UNIVERSITY</p>
+                        <p style={{color: "#fff", marginLeft: "57.5rem", position: "absolute", marginTop: "95.5rem", fontSize: "20px"}}>ACCOUNT DETAILS</p>
+                        <p style={{color: "#FCAF30", marginLeft: "59.5rem", position: "absolute", marginTop: "98rem", fontSize: "20px"}}>0465073660</p>
+                        <p style={{color: "#FCAF30", marginLeft: "56.5rem", position: "absolute", marginTop: "100.5rem", fontSize: "20px"}}>Propadi Limited | GTBank</p>
 
                     <div className="square2div">
                         <img className="human2" src={human2} alt="human2"></img>
@@ -182,6 +182,7 @@ const Design = () => {
                     </div>
                     <div className="square1div2"></div>
                     <div className="square1div3"></div>
+                    <div className="square1div32"></div>
                     <div className="square1div4"></div>
                     <div className="square1div5"></div>
                     <div className="square1div6"></div>

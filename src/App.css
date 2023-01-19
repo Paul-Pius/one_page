@@ -141,53 +141,53 @@
   height: 87.5rem;
 }
 
-.redcirclediv {
+/* .redcirclediv {
   display: flex;
   position: absolute;
   margin-top: 40rem;
   margin-left: 29rem;
   z-index: 1;
-}
+} */
 
-.redcircleimg {
+/* .redcircleimg {
   height: 18.75rem;
   margin-top: 2rem;
-}
+} */
 
 .greenrecdiv {
   position: absolute;
   margin-top: 64rem;
   height: 6.25rem;
-  width: 23%;
+  width: 30%;
   background: linear-gradient(to right, green , black);
   z-index: 1;
   border-top-right-radius: 1.875rem;
   border-bottom-right-radius: 1.875rem;
-  margin-left: 39.3rem;
+  margin-left: 36rem;
 }
 
-.greenrecimg {
+/* .greenrecimg {
   width: 50%;
   z-index: 1;
-}
+} */
 
 .linediv {
   background: #FCAF30;
   height: 0.313rem;
   position: absolute;
-  margin-top: 83.7rem;
+  margin-top: 84.5rem;
   margin-left: 2rem;
   width: 41.875rem;
 }
 
 .square1div {
   height: 0.313rem;
-  width: 35%;
+  width: 38.5%;
   background: #FCAF30;
   color: blue;
   position: absolute;
   margin-top: 103rem;
-  margin-left: 47.5rem;
+  margin-left: 47.3rem;
   display: flex;
 }
 
@@ -209,7 +209,7 @@
   color: blue;
   position: absolute;
   margin-top: 96rem;
-  margin-left: 67.8rem;
+  margin-left: 70.5rem;
   display: flex;
 }
 
@@ -220,7 +220,7 @@
   color: blue;
   position: absolute;
   margin-top: 86.5rem;
-  margin-left: 70.1rem;
+  margin-left: 73rem;
   display: flex;
 }
 
@@ -242,7 +242,7 @@
   color: blue;
   position: absolute;
   margin-top: 86.5rem;
-  margin-left: 47.5rem;
+  margin-left: 47rem;
   display: flex;
 }
 
@@ -253,7 +253,18 @@
   color: blue;
   position: absolute;
   margin-top: 86.5rem;
-  margin-left: 75.8rem;
+  margin-left: 78.5rem;
+  display: flex;
+}
+
+.square1div32 {
+  height: 16.563rem;
+  width: 0.313rem;
+  background: #FCAF30;
+  color: blue;
+  position: absolute;
+  margin-top: 86.5rem;
+  margin-left: 47.3rem;
   display: flex;
 }
 
@@ -312,7 +323,7 @@
 .cyldiv {
   position: absolute;
   margin-left: 8rem;
-  margin-top: 56.5rem;
+  margin-top: 59rem;
   height: 23.125rem;
   width: 6.5%;
   border-radius: 3.125rem;
@@ -322,11 +333,11 @@
 
 .circle {
   position: absolute;
-  height: 18.75rem;
+  height: 17rem;
   border-radius: 18.75rem;
-  width: 23%;
-  margin-top: 42rem;
-  margin-left: 29rem;
+  width: 21%;
+  margin-top: 43.5rem;
+  margin-left: 28.5rem;
   background: #fff;
   z-index: 2;
 }
@@ -336,7 +347,7 @@
   height: 4.375rem;
   width: 11.25rem;
   background: black;
-  margin-left: 20rem;
+  margin-left: 33rem;
   margin-top: 12rem;
   border-radius: 0.938rem;
   opacity: 0.5;
@@ -367,13 +378,14 @@
   color: #fff;
   margin-left: 10rem;
   font-size: 1.563rem;
+  margin-top: 0.8rem;
 }
 
 .sixx {
   position: absolute;
   color: #fff;
   margin-left: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   font-size: 14.375rem;
 }
 
@@ -415,17 +427,17 @@
   text-align: left;
   font-size: 2.5rem;
   margin-left: 15rem;
-  margin-top: 26rem;
+  margin-top: 29rem;
   z-index: 2;
 }
 
 .darkblue {
   background: #00001c;
-  height: 45.313rem;
-  width: 45.8%;
+  height: 40rem;
+  width: 42%;
   margin-left: 1.9rem;
   position: absolute;
-  margin-top: 16.5rem;
+  margin-top: 23rem;
   border-radius: 4.375rem;
   z-index: 1;
 }
@@ -435,7 +447,7 @@
   position: absolute;
   font-size: 3.125rem;
   font-weight: bolder;
-  margin-top: 38rem;
+  margin-top: 40rem;
   margin-left: 3rem;
   z-index: 2;
   transform: rotate(270deg)
@@ -443,21 +455,23 @@
 
 .womandiv {
   position: absolute;
-  margin-left: 5rem;
+  margin-left: -8rem;
   margin-top: 24rem;
+  transform:rotate(2deg)
 }
 
 .womanimg {
-  width: 77.5rem;
+  width: 90rem;
+  margin-left: 2.1rem;
 }
 
 .redcirc {
   position: absolute;
-  height: 17rem;
+  height: 16rem;
   border-radius: 18.75rem;
-  width: 21.5%;
-  margin-top: 42.9rem;
-  margin-left: 29.7rem;
+  width: 20%;
+  margin-top: 44rem;
+  margin-left: 29rem;
   background: blue;
   background: linear-gradient(to right, red , black);
   z-index: 2;
@@ -471,9 +485,9 @@
 
 .hillshape {
   position: absolute;
-  margin-top: 43rem;
-  width: 51.25rem;
-  height:43.75rem;
+  margin-top: 26.8rem;
+  width: 81rem;
+  height: 60rem;
   background-color: #6082B6;
   background-size: cover;
   clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
@@ -481,7 +495,7 @@
   border-top-right-radius: 1.25rem;
 }
 
-.hillshape2 {
+/* .hillshape2 {
   position: absolute;
   margin-top: 12rem;
   width: 81.25rem;
@@ -491,31 +505,32 @@
   clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
   border-top-left-radius: 12.5rem;
   border-top-right-radius: 1.25rem;
-}
+} */
 
 .hillshape3 {
   width: 0;
   height: 0px;
-  border-top: 50rem solid #002147;
-  border-left: 50.313rem solid transparent;
-  margin-top: 38rem;
-  margin-left: 30rem;
-  z-index: -1;
-  transform: rotate(-2.1deg);
+  border-top: 30.6rem solid #002147;
+  border-left: 28.7rem solid transparent;
+  margin-top: 57.1rem;
+  margin-left: 51.999rem;
+  /* z-index: -1; */
+  transform: rotate(90deg);
 }
 
 .hillshape4 {
   position: absolute;
-  margin-left: -4rem;
-  height: 15.625rem;
-  width: 110%;
+  margin-left: -10rem;
+  height: 41.8rem;
+  width: 111%;
   background: #002147;
-  border-radius: 6.25rem;
-  transform: rotate(38deg);
-  margin-top: 32rem;
+  /* border-radius: 6.25rem; */
+  transform: rotate(46.8deg);
+  margin-top: 18.4rem;
+  border-top-left-radius: 150rem;
 }
 
-.hillshape5 {
+/* .hillshape5 {
   position: absolute;
   width: 0;
   height: 0px;
@@ -524,12 +539,12 @@
   margin-left: 63rem;
   margin-top: 47rem;
   transform: rotate(-0.5deg);
-}
+} */
 
 .freee {
   position: absolute;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-left: 7rem;
   margin-top: 9rem;
   z-index: 1;
@@ -537,7 +552,7 @@
 
 .ttt {
   margin-bottom: 0.5rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
 
 .fff {
