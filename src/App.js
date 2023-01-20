@@ -5,7 +5,7 @@ import designlogo from "./img/designlogo.jpeg";
 import woman from "./img/woman.png";
 import loc from "./img/loc.png";
 import human2 from "./img/human2.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRoad } from '@fortawesome/free-solid-svg-icons';
 import { faWater } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
@@ -90,8 +90,7 @@ const Design = () => {
 
                 <div className="shape1div">
                     <div className="tf">
-                        {/* <p className="title">TITLE:</p>
-                        <h2 className="free">FREE HOLD</h2> */}
+
                         <div className="feature">
                             <span>FEATURES</span>
                         </div>
